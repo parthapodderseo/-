@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>চাঁদপুরের টাটকা নদীর ইলিশ | কদমতলা থেকে সরাসরি</title>
+<meta name="description" content="চাঁদপুরের মেঘনা নদীর টাটকা ইলিশ, কদমতলা থেকে সরাসরি। বরফে প্যাক করে সারা দেশে হোম ডেলিভারি।">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Noto+Serif+Bengali:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --green:#0f4c5c; --green-2:#1b6b7e; --gold:#e9a23b; --gold-2:#f4c06a;
+  --cream:#f3f8fa; --cream-2:#d9e8ee; --brown:#0b3a46; --ink:#14232a; --muted:#56707a;
+  --radius:18px; --shadow:0 10px 30px rgba(15,76,92,.12);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Hind Siliguri',sans-serif;background:var(--cream);color:var(--ink);line-height:1.7;font-size:17px}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{width:min(1120px,92%);margin:auto}
+h1,h2,h3{font-family:'Noto Serif Bengali',serif;line-height:1.3;color:var(--green)}
+h2{font-size:clamp(1.6rem,4vw,2.3rem);text-align:center;margin-bottom:.4rem}
+.sub{text-align:center;color:var(--muted);max-width:640px;margin:0 auto 2.5rem}
+section{padding:72px 0}
+.btn{display:inline-flex;align-items:center;gap:.5rem;background:var(--green);color:#fff;text-decoration:none;font-weight:700;padding:14px 30px;border-radius:999px;border:0;cursor:pointer;font-size:1.05rem;font-family:inherit;box-shadow:0 6px 18px rgba(15,76,92,.3);transition:.2s}
+.btn:hover{background:var(--green-2);transform:translateY(-2px)}
+.btn.gold{background:var(--gold);color:var(--ink)}
+.btn.gold:hover{background:var(--gold-2)}
+
+/* top bar */
+.topbar{background:var(--green);color:#fff;text-align:center;font-size:.92rem;padding:8px 10px}
+header{position:sticky;top:0;z-index:50;background:rgba(243,248,250,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--cream-2)}
+header .wrap{display:flex;justify-content:space-between;align-items:center;padding:12px 0}
+.logo{font-family:'Noto Serif Bengali',serif;font-weight:800;font-size:1.35rem;color:var(--green);text-decoration:none}
+.logo span{color:var(--gold)}
+header .btn{padding:9px 20px;font-size:.95rem}
+
+/* hero */
+.hero{padding:56px 0 72px;background:radial-gradient(circle at 80% 20%,#dff0f5 0,transparent 55%)}
+.hero .wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:center}
+.tag{display:inline-block;background:var(--cream-2);color:var(--brown);font-weight:600;padding:6px 14px;border-radius:999px;font-size:.9rem;margin-bottom:1rem}
+.hero h1{font-size:clamp(2rem,5.5vw,3.3rem);margin-bottom:1rem}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero p.lead{font-size:1.15rem;color:var(--muted);margin-bottom:1.6rem}
+.hero-points{list-style:none;display:flex;flex-wrap:wrap;gap:10px 22px;margin-bottom:2rem;font-weight:600}
+.hero-points li::before{content:"✓ ";color:var(--green-2)}
+.price-hint{margin-top:1rem;color:var(--muted);font-size:.95rem}
+.price-hint b{color:var(--brown);font-size:1.15rem}
+.hero-img{filter:drop-shadow(0 20px 30px rgba(107,74,31,.25))}
+
+/* benefits */
+.grid{display:grid;gap:22px}
+.g3{grid-template-columns:repeat(3,1fr)}
+.card{background:#fff;border-radius:var(--radius);padding:28px;box-shadow:var(--shadow)}
+.card .ic{font-size:2.2rem;margin-bottom:.6rem}
+.card h3{font-size:1.2rem;margin-bottom:.4rem}
+.card p{color:var(--muted);font-size:.98rem}
+
+/* story */
+.story{background:#fff}
+.story .wrap{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+.story img{border-radius:var(--radius);box-shadow:var(--shadow)}
+.story h2{text-align:left}
+.story p{color:var(--muted);margin-bottom:1rem}
+.steps{list-style:none;counter-reset:s;margin-top:1rem}
+.steps li{counter-increment:s;position:relative;padding-left:46px;margin-bottom:14px}
+.steps li::before{content:counter(s);position:absolute;left:0;top:2px;width:32px;height:32px;border-radius:50%;background:var(--gold);color:var(--ink);font-weight:700;display:grid;place-items:center}
+
+/* uses */
+.uses{display:flex;flex-wrap:wrap;justify-content:center;gap:12px}
+.uses span{background:#fff;border:2px solid var(--cream-2);padding:10px 20px;border-radius:999px;font-weight:600}
+
+/* compare */
+.compare{background:var(--green);color:#fff}
+.compare h2,.compare .sub{color:#fff}
+.compare .sub{opacity:.85}
+table{width:100%;border-collapse:collapse;background:rgba(255,255,255,.06);border-radius:var(--radius);overflow:hidden}
+th,td{padding:14px 16px;text-align:left;border-bottom:1px solid rgba(255,255,255,.12)}
+th{background:rgba(0,0,0,.15);font-family:'Noto Serif Bengali',serif}
+td:nth-child(2){color:var(--gold-2);font-weight:600}
+td:nth-child(3){opacity:.75}
+
+/* check */
+.check .grid{grid-template-columns:repeat(4,1fr)}
+.check .card{text-align:center}
+.promise{margin-top:2rem;background:var(--cream-2);border-radius:var(--radius);padding:22px 26px;text-align:center;font-weight:600;color:var(--brown)}
+
+/* packages */
+.pk{grid-template-columns:repeat(3,1fr);align-items:stretch}
+.pack{background:#fff;border-radius:var(--radius);padding:32px 26px;text-align:center;box-shadow:var(--shadow);border:2px solid transparent;position:relative;display:flex;flex-direction:column}
+.pack.best{border-color:var(--gold);transform:scale(1.03)}
+.badge{position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:var(--gold);color:var(--ink);font-weight:700;padding:4px 16px;border-radius:999px;font-size:.85rem;white-space:nowrap}
+.pack .kg{font-family:'Noto Serif Bengali',serif;font-size:1.7rem;font-weight:800;color:var(--green)}
+.pack .price{font-size:1.9rem;font-weight:700;color:var(--brown);margin:.3rem 0}
+.pack .price small{font-size:1rem;color:var(--muted);font-weight:500}
+.pack .old{text-decoration:line-through;color:#a59a82;font-size:1rem;margin-left:6px}
+.pack ul{list-style:none;color:var(--muted);margin:1rem 0 1.5rem;flex:1}
+.pack ul li{padding:4px 0}
+.pack .btn{justify-content:center}
+.delivery{display:flex;flex-wrap:wrap;justify-content:center;gap:14px 34px;margin-top:2.2rem;color:var(--muted);font-weight:600}
+
+/* reviews */
+.reviews{background:#fff}
+.rv{grid-template-columns:repeat(3,1fr)}
+.rv .card{background:var(--cream)}
+.stars{color:var(--gold);letter-spacing:2px;margin-bottom:.5rem}
+.who{margin-top:1rem;font-weight:700;color:var(--green)}
+.who small{display:block;font-weight:400;color:var(--muted)}
+.sample-note{text-align:center;font-size:.8rem;color:#a59a82;margin-top:1.2rem}
+
+/* faq */
+.faq{max-width:780px;margin:auto}
+details{background:#fff;border-radius:14px;margin-bottom:12px;box-shadow:0 4px 14px rgba(0,0,0,.04)}
+summary{cursor:pointer;padding:18px 22px;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:1.4rem;color:var(--gold);line-height:1}
+details[open] summary::after{content:"−"}
+details p{padding:0 22px 18px;color:var(--muted)}
+
+/* order */
+.order{background:linear-gradient(160deg,var(--green) 0,#082f39 100%);color:#fff}
+.order h2,.order .sub{color:#fff}
+.order .sub{opacity:.85}
+form{background:#fff;color:var(--ink);max-width:620px;margin:auto;border-radius:var(--radius);padding:32px;box-shadow:0 20px 50px rgba(0,0,0,.25)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+label{display:block;font-weight:600;font-size:.95rem;margin-bottom:4px}
+input,select,textarea{width:100%;padding:12px 14px;border:2px solid var(--cream-2);border-radius:12px;font-family:inherit;font-size:1rem;margin-bottom:14px;background:var(--cream)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--gold)}
+.total{display:flex;justify-content:space-between;align-items:center;background:var(--cream-2);padding:14px 18px;border-radius:12px;margin-bottom:16px;font-weight:600}
+.total b{font-size:1.4rem;color:var(--brown)}
+form .btn{width:100%;justify-content:center;font-size:1.15rem}
+.small{font-size:.85rem;color:var(--muted);text-align:center;margin-top:10px}
+#thanks{display:none;text-align:center;padding:20px}
+#thanks h3{font-size:1.5rem;margin-bottom:.4rem}
+
+/* footer */
+footer{background:#0a2730;color:#c8dbe1;padding:44px 0 90px;font-size:.95rem}
+footer .wrap{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:30px}
+footer h4{color:var(--gold-2);font-family:'Noto Serif Bengali',serif;margin-bottom:.6rem}
+footer a{text-decoration:none}
+.copy{text-align:center;margin-top:30px;opacity:.6;font-size:.85rem}
+
+/* sticky mobile CTA */
+.mcta{display:none;position:fixed;bottom:0;left:0;right:0;background:#fff;padding:10px 14px;box-shadow:0 -6px 20px rgba(0,0,0,.12);z-index:60;align-items:center;justify-content:space-between;gap:10px}
+.mcta div{font-weight:700;color:var(--brown);line-height:1.2}
+.mcta small{display:block;font-weight:400;color:var(--muted)}
+
+@media (max-width:900px){
+  .hero .wrap,.story .wrap{grid-template-columns:1fr}
+  .hero-img{max-width:380px;margin:auto;order:-1}
+  .g3,.pk,.rv{grid-template-columns:1fr}
+  .check .grid{grid-template-columns:1fr 1fr}
+  .pack.best{transform:none}
+  footer .wrap{grid-template-columns:1fr}
+  .mcta{display:flex}
+  header .btn{display:none}
+}
+@media (max-width:520px){
+  section{padding:56px 0}
+  .row{grid-template-columns:1fr;gap:0}
+  form{padding:22px}
+  th,td{padding:10px;font-size:.9rem}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">🚚 সারা বাংলাদেশে বরফে প্যাক করে ডেলিভারি · ক্যাশ অন ডেলিভারি</div>
+
+<header>
+  <div class="wrap">
+    <a href="#" class="logo">কদমতলার <span>ইলিশ</span></a>
+    <a href="#order" class="btn">অর্ডার করুন</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <span class="tag">🐟 মেঘনার ঘাট থেকে সরাসরি আপনার রান্নাঘরে</span>
+      <h1>আসল <em>চাঁদপুরের ইলিশ</em>,<br>এবার ঘরে বসেই</h1>
+      <p class="lead">পদ্মা-মেঘনার মোহনা থেকে জেলেদের ধরা টাটকা ইলিশ। চাঁদপুরের কদমতলা থেকে আমরা নিজেরা ঘাটে গিয়ে বেছে কিনি, তারপর বরফে প্যাক করে পাঠাই আপনার ঠিকানায়।</p>
+      <ul class="hero-points">
+        <li>নদীর ইলিশ, সাগরের না</li>
+        <li>কোনো ফরমালিন নেই</li>
+        <li>ওজনে কম নয়</li>
+      </ul>
+      <a href="#order" class="btn gold">এখনই অর্ডার করুন →</a>
+      <p class="price-hint">প্রতি কেজি <b>৳১,৭৫০</b> থেকে শুরু</p>
+    </div>
+    <img class="hero-img" src="images/hero-ilish.svg" alt="চাঁদপুরের টাটকা রুপালি ইলিশ মাছ">
+  </div>
+</section>
+
+<!-- BENEFITS -->
+<section id="why">
+  <div class="wrap">
+    <h2>কেন আমাদের ইলিশ?</h2>
+    <p class="sub">বাজারে "চাঁদপুরের ইলিশ" বলে অনেক কিছুই বিক্রি হয়। আমাদেরটা কেন আলাদা, দেখুন।</p>
+    <div class="grid g3">
+      <div class="card"><div class="ic">🌊</div><h3>মেঘনার মিঠাপানির ইলিশ</h3><p>ডিম ছাড়তে সাগর থেকে নদীতে উঠে আসা ইলিশ। এজন্যই এর স্বাদ আর ঘ্রাণ আলাদা।</p></div>
+      <div class="card"><div class="ic">🏡</div><h3>চাঁদপুরের মানুষের হাতে বাছাই</h3><p>আমরা কদমতলার ছেলে, ছোটবেলা থেকে ইলিশ চিনি। ঘাটে নিজে দেখে তবেই কিনি।</p></div>
+      <div class="card"><div class="ic">🧊</div><h3>শুধু বরফ, কোনো কেমিক্যাল নয়</h3><p>ফরমালিন বা অন্য কোনো কেমিক্যাল নয়। মাছ টাটকা রাখি শুধু বরফ দিয়ে।</p></div>
+      <div class="card"><div class="ic">⚖️</div><h3>সঠিক ওজন, সঠিক সাইজ</h3><p>যে সাইজ অর্ডার করবেন সেটাই পাবেন। ডেলিভারির সময় ওজন মিলিয়ে নিতে পারবেন।</p></div>
+      <div class="card"><div class="ic">🔪</div><h3>চাইলে কেটে-ধুয়ে</h3><p>আস্ত নিতে পারেন, আবার চাইলে পিস করে কেটে, ধুয়ে প্যাক করে দেব। কোনো বাড়তি খরচ নেই।</p></div>
+      <div class="card"><div class="ic">🐟</div><h3>নিষেধাজ্ঞা মেনে চলি</h3><p>মা ইলিশ আর জাটকা ধরা নিষেধের সময় আমরা বিক্রি বন্ধ রাখি। ইলিশ বাঁচলে তবেই ইলিশ থাকবে।</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- STORY -->
+<section class="story">
+  <div class="wrap">
+    <img src="images/meghna-boat.svg" alt="মেঘনা নদীতে জেলের নৌকা">
+    <div>
+      <h2>মেঘনার পাড় থেকে আপনার দরজায়</h2>
+      <p>চাঁদপুরে পদ্মা আর মেঘনা মিশেছে। প্রতি বছর ডিম ছাড়ার জন্য সাগর থেকে ইলিশ এই নদীতে উঠে আসে, তাই চাঁদপুরকে ইলিশের বাড়ি বলা হয়। আমাদের বাড়ি কদমতলায়, মেঘনার ঘাট একদম কাছে।</p>
+      <p>প্রতিটি অর্ডারের মাছ যেভাবে আপনার কাছে পৌঁছায়:</p>
+      <ol class="steps">
+        <li><b>ভোরে ঘাটে যাওয়া:</b> জেলেরা রাতে নদীতে জাল ফেলেন, ভোরে মাছ নিয়ে ঘাটে ফেরেন।</li>
+        <li><b>নিজে বাছাই:</b> চোখ, কানকো আর গায়ের রঙ দেখে টাটকা মাছ বেছে নিই।</li>
+        <li><b>পরিষ্কার ও প্যাকিং:</b> চাইলে কেটে-ধুয়ে, তারপর বরফসহ ককশিটের বাক্সে প্যাক করি।</li>
+        <li><b>দ্রুত ডেলিভারি:</b> ঢাকায় পরদিন, অন্য জেলায় কুরিয়ারে ১–২ দিনে।</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- USES -->
+<section>
+  <div class="wrap">
+    <h2>কী কী রাঁধবেন?</h2>
+    <p class="sub">এক ইলিশেই বাঙালির কত রকম রান্না।</p>
+    <div class="uses">
+      <span>🍳 ইলিশ ভাজা</span><span>🥘 সর্ষে ইলিশ</span><span>🍃 ভাপা ইলিশ</span><span>🍌 কলাপাতায় পাতুরি</span><span>🍲 ইলিশের ঝোল</span><span>🍚 ইলিশ পোলাও</span><span>🥚 ইলিশের ডিম ভুনা</span><span>🫙 লেজ-মাথার ভর্তা</span>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARE -->
+<section class="compare">
+  <div class="wrap">
+    <h2>নদীর ইলিশ বনাম বাজারের সাধারণ ইলিশ</h2>
+    <p class="sub">কেনার আগে পার্থক্যটা জেনে নিন।</p>
+    <table>
+      <tr><th>বিষয়</th><th>আমাদের ইলিশ</th><th>বাজারের অনেক ইলিশ</th></tr>
+      <tr><td>উৎস</td><td>চাঁদপুরের মেঘনা নদী</td><td>সাগরের, নাম দেওয়া হয় চাঁদপুরের</td></tr>
+      <tr><td>সংরক্ষণ</td><td>শুধু বরফ</td><td>অনেক সময় ফরমালিনের ঝুঁকি</td></tr>
+      <tr><td>টাটকা</td><td>ঘাট থেকে সরাসরি</td><td>কতদিন হিমাগারে ছিল জানা নেই</td></tr>
+      <tr><td>সাইজ</td><td>অর্ডার মতো বাছাই করা</td><td>বড়-ছোট মিশিয়ে বিক্রি</td></tr>
+      <tr><td>ওজন</td><td>সামনে মেপে দেওয়া</td><td>ওজনে কম দেওয়ার অভিযোগ</td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- QUALITY CHECK -->
+<section class="check">
+  <div class="wrap">
+    <h2>টাটকা নদীর ইলিশ চেনার উপায়</h2>
+    <p class="sub">মাছ হাতে পেয়ে নিজেই যাচাই করে নিন।</p>
+    <div class="grid">
+      <div class="card"><div class="ic">✨</div><h3>রুপালি উজ্জ্বল গা</h3><p>নদীর ইলিশের গা উজ্জ্বল রুপালি, হালকা সোনালি আভা থাকে। শরীর তুলনামূলক চওড়া ও মোটা।</p></div>
+      <div class="card"><div class="ic">👁️</div><h3>চোখ দেখুন</h3><p>টাটকা মাছের চোখ স্বচ্ছ ও উজ্জ্বল। ঘোলা বা ভেতরে ঢুকে যাওয়া চোখ মানে পুরনো মাছ।</p></div>
+      <div class="card"><div class="ic">🔴</div><h3>কানকো দেখুন</h3><p>কানকো উল্টে দেখুন, ভেতরটা লাল হবে। কালচে বা ধূসর হলে মাছ টাটকা নয়।</p></div>
+      <div class="card"><div class="ic">👆</div><h3>চেপে দেখুন</h3><p>আঙুলে চাপ দিলে মাংস শক্ত থাকবে, দেবে যাবে না। কেমিক্যালের কোনো গন্ধ থাকবে না।</p></div>
+    </div>
+    <div class="promise">🤝 আমাদের প্রতিশ্রুতি: মাছ টাটকা না হলে বা ওজনে কম হলে ডেলিভারি ম্যানের সামনেই ফেরত দিতে পারবেন।</div>
+  </div>
+</section>
+
+<!-- PACKAGES -->
+<section class="reviews" id="price">
+  <div class="wrap">
+    <h2>সাইজ ও দাম</h2>
+    <p class="sub">দাম প্রতি কেজি হিসেবে। ঘাটের দাম প্রতিদিন ওঠানামা করে, তাই অর্ডার কনফার্মের সময় দাম একবার মিলিয়ে নেওয়া হবে।</p>
+    <div class="grid pk">
+      <div class="pack">
+        <div class="kg">৫০০–৬০০ গ্রাম</div>
+        <div class="price">৳১,৭৫০<small>/কেজি</small></div>
+        <ul><li>প্রতি কেজিতে ২টা মাছ</li><li>প্রতিদিনের রান্না আর ভাজার জন্য</li></ul>
+        <a href="#order" class="btn" data-pack="s">এটি অর্ডার করুন</a>
+      </div>
+      <div class="pack best">
+        <span class="badge">⭐ সবচেয়ে জনপ্রিয়</span>
+        <div class="kg">৭০০–৯০০ গ্রাম</div>
+        <div class="price">৳২,১০০<small>/কেজি</small></div>
+        <ul><li>প্রতি পিস একটু বড়</li><li>সর্ষে ইলিশ আর ভাপার জন্য সেরা</li></ul>
+        <a href="#order" class="btn gold" data-pack="m">এটি অর্ডার করুন</a>
+      </div>
+      <div class="pack">
+        <div class="kg">১ কেজি+</div>
+        <div class="price">৳২,৫০০<small>/কেজি</small></div>
+        <ul><li>একেকটা মাছ ১ কেজির বেশি</li><li>অতিথি আপ্যায়ন বা উপহারের জন্য</li></ul>
+        <a href="#order" class="btn" data-pack="l">এটি অর্ডার করুন</a>
+      </div>
+    </div>
+    <div class="delivery">
+      <span>📦 সর্বনিম্ন অর্ডার ২ কেজি</span>
+      <span>🏙️ ঢাকা: ৳১৫০ · পরদিন</span>
+      <span>🇧🇩 অন্য জেলা: ৳২৫০ · ১–২ দিন</span>
+      <span>🎁 ৫ কেজি বা বেশি হলে ডেলিভারি ফ্রি</span>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<!-- এগুলো নমুনা রিভিউ। যারা আসলে এই ইলিশ কিনেছেন বা খেয়েছেন তাদের মতামত নিয়ে নাম ও লেখা বদলে দিন, তারপর নিচের "নমুনা" লাইনটা মুছে দিন। -->
+<section>
+  <div class="wrap">
+    <h2>যারা খেয়েছেন, তারা বলছেন</h2>
+    <p class="sub">একবার নদীর ইলিশের স্বাদ পেলে আর বাজারেরটা মুখে রোচে না।</p>
+    <div class="grid rv">
+      <div class="card"><div class="stars">★★★★★</div><p>“ভাজার সময়েই বুঝেছি আসল নদীর ইলিশ, পুরো বাসা ঘ্রাণে ভরে গেছে। বরফে এত ভালো প্যাক ছিল যে মাছ একদম শক্ত ছিল।”</p><div class="who">ফারজানা ইয়াসমিন<small>ধানমন্ডি, ঢাকা</small></div></div>
+      <div class="card"><div class="stars">★★★★★</div><p>“কেটে-ধুয়ে দিতে বলেছিলাম, সুন্দর করে পিস করে দিয়েছে। ওজনও মেপে দেখেছি, ঠিক আছে।”</p><div class="who">মাহমুদুল হাসান<small>উত্তরা, ঢাকা</small></div></div>
+      <div class="card"><div class="stars">★★★★☆</div><p>“চট্টগ্রামে দুই দিনে পৌঁছেছে, তবু মাছ টাটকা। সর্ষে ইলিশটা অসাধারণ হয়েছে। পরের বার বড় সাইজ নেব।”</p><div class="who">তানিয়া সুলতানা<small>চট্টগ্রাম</small></div></div>
+    </div>
+    <p class="sample-note">* নমুনা মতামত</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="reviews">
+  <div class="wrap">
+    <h2>সাধারণ প্রশ্ন</h2>
+    <p class="sub">অর্ডারের আগে যা জানতে চান।</p>
+    <div class="faq">
+      <details><summary>সারা বছর কি ইলিশ পাওয়া যাবে?</summary><p>না। মা ইলিশ রক্ষায় অক্টোবরে ২২ দিন আর জাটকা রক্ষায় মার্চ-এপ্রিলের দুই মাস চাঁদপুরের পদ্মা-মেঘনায় মাছ ধরা নিষেধ থাকে। ওই সময়ে আমরা বিক্রি বন্ধ রাখি। বাকি সময়ে অর্ডার নেওয়া হয়।</p></details>
+      <details><summary>মাছ কীভাবে টাটকা থাকবে?</summary><p>ককশিটের বাক্সে পর্যাপ্ত বরফ দিয়ে প্যাক করা হয়, তাই ১–২ দিনের পথেও মাছ ঠিক থাকে। হাতে পেয়েই ফ্রিজে রাখুন।</p></details>
+      <details><summary>কেটে-ধুয়ে দেবেন কি?</summary><p>হ্যাঁ। অর্ডার ফর্মে "কেটে-ধুয়ে" বেছে নিন। পিস করে, ধুয়ে, আলাদা প্যাকেটে দেওয়া হবে। এর জন্য বাড়তি টাকা লাগবে না।</p></details>
+      <details><summary>দাম কেন ওঠানামা করে?</summary><p>ইলিশের দাম ঘাটের দৈনিক সরবরাহের ওপর নির্ভর করে। নদীতে মাছ কম ধরা পড়লে দাম বাড়ে। তাই ফোনে অর্ডার কনফার্মের সময় সেদিনের দাম জানিয়ে দেওয়া হবে।</p></details>
+      <details><summary>ডিমওয়ালা ইলিশ পাওয়া যাবে?</summary><p>মৌসুম অনুযায়ী কিছু মাছে ডিম থাকে। আলাদা করে ডিমওয়ালা চাইলে অর্ডারের সময় জানান, পাওয়া গেলে দেব।</p></details>
+      <details><summary>আগে টাকা দিতে হবে?</summary><p>ঢাকায় ক্যাশ অন ডেলিভারি। ঢাকার বাইরে কুরিয়ার চার্জটুকু বিকাশ/নগদে আগে দিতে হবে, বাকি টাকা মাছ হাতে পেয়ে।</p></details>
+      <details><summary>মাছ খারাপ হলে কী করব?</summary><p>ডেলিভারি ম্যানের সামনেই বাক্স খুলে দেখে নিন। মাছ টাটকা না হলে বা ওজনে কম হলে সেখানেই ফেরত দিতে পারবেন।</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ORDER -->
+<section class="order" id="order">
+  <div class="wrap">
+    <h2>আজই অর্ডার করুন</h2>
+    <p class="sub">ফর্মটা পূরণ করুন, আমরা ফোন করে সেদিনের দাম জানিয়ে অর্ডার নিশ্চিত করব।</p>
+    <form id="orderForm">
+      <div id="formBody">
+        <label for="name">আপনার নাম *</label>
+        <input id="name" required placeholder="যেমন: রহিমা খাতুন">
+        <div class="row">
+          <div><label for="phone">মোবাইল নম্বর *</label><input id="phone" type="tel" required pattern="01[0-9]{9}" placeholder="01XXXXXXXXX"></div>
+          <div><label for="area">এলাকা *</label>
+            <select id="area"><option value="150">ঢাকার ভেতরে</option><option value="250">ঢাকার বাইরে</option></select></div>
+        </div>
+        <div class="row">
+          <div><label for="pack">সাইজ *</label>
+            <select id="pack">
+              <option value="s" data-price="1750">৫০০–৬০০ গ্রাম — ৳১,৭৫০/কেজি</option>
+              <option value="m" data-price="2100" selected>৭০০–৯০০ গ্রাম — ৳২,১০০/কেজি</option>
+              <option value="l" data-price="2500">১ কেজি+ — ৳২,৫০০/কেজি</option>
+            </select></div>
+          <div><label for="qty">কত কেজি? (সর্বনিম্ন ২)</label><input id="qty" type="number" min="2" value="2"></div>
+        </div>
+        <label for="cut">কীভাবে চান?</label>
+        <select id="cut"><option>আস্ত মাছ</option><option>কেটে-ধুয়ে পিস করে</option></select>
+        <label for="addr">পূর্ণ ঠিকানা *</label>
+        <textarea id="addr" rows="2" required placeholder="বাসা, রোড, এলাকা, জেলা"></textarea>
+        <div class="total"><span>আনুমানিক মোট (ডেলিভারিসহ)</span><b id="total">৳৪,৩৫০</b></div>
+        <button type="submit" class="btn gold">✅ অর্ডার কনফার্ম করুন</button>
+        <p class="small">অর্ডারটি আমাদের WhatsApp-এ চলে যাবে · চূড়ান্ত দাম ফোনে জানানো হবে</p>
+      </div>
+      <div id="thanks">
+        <h3>ধন্যবাদ! 🐟</h3>
+        <p>আপনার অর্ডার পেয়েছি। শিগগিরই ফোন করে নিশ্চিত করা হবে।</p>
+      </div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <h4>কদমতলার ইলিশ</h4>
+      <p>চাঁদপুরের মেঘনা থেকে টাটকা নদীর ইলিশ, ঘাট থেকে সরাসরি আপনার রান্নাঘরে।</p>
+    </div>
+    <div>
+      <h4>যোগাযোগ</h4>
+      <p>📞 <a href="tel:01XXXXXXXXX">01XXXXXXXXX</a><br>💬 WhatsApp: 01XXXXXXXXX<br>📍 কদমতলা, চাঁদপুর</p>
+    </div>
+    <div>
+      <h4>লিংক</h4>
+      <p><a href="#why">কেন আমাদের ইলিশ</a><br><a href="#price">দাম</a><br><a href="#order">অর্ডার</a></p>
+    </div>
+  </div>
+  <p class="copy">© ২০২৬ কদমতলার ইলিশ · সব অধিকার সংরক্ষিত</p>
+</footer>
+
+<div class="mcta">
+  <div>৳১,৭৫০/কেজি থেকে<small>ঘাট থেকে সরাসরি</small></div>
+  <a href="#order" class="btn gold">অর্ডার করুন</a>
+</div>
+
+<script>
+// ⚠️ নিচে নিজের WhatsApp নম্বর দিন (দেশের কোড সহ, + ছাড়া) — যেমন 88017XXXXXXXX
+const WHATSAPP = "8801XXXXXXXXX";
+
+const bn = n => n.toLocaleString('bn-BD');
+const $ = id => document.getElementById(id);
+function calc(){
+  const opt = $('pack').selectedOptions[0];
+  const qty = Math.max(2, +$('qty').value || 2);
+  const price = +opt.dataset.price * qty;
+  const ship = qty >= 5 ? 0 : +$('area').value;
+  $('total').textContent = '৳' + bn(price + ship);
+  return {price, ship, qty, label: opt.textContent};
+}
+['pack','qty','area'].forEach(id => $(id).addEventListener('input', calc));
+document.querySelectorAll('[data-pack]').forEach(b => b.addEventListener('click', () => { $('pack').value = b.dataset.pack; calc(); }));
+
+$('orderForm').addEventListener('submit', e => {
+  e.preventDefault();
+  const o = calc();
+  const msg = `নতুন অর্ডার (চাঁদপুরের ইলিশ)\nনাম: ${$('name').value}\nফোন: ${$('phone').value}\nসাইজ: ${o.label}\nপরিমাণ: ${o.qty} কেজি (${$('cut').value})\nঠিকানা: ${$('addr').value}\nআনুমানিক মোট: ৳${o.price + o.ship}`;
+  window.open(`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}`, '_blank');
+  $('formBody').style.display = 'none';
+  $('thanks').style.display = 'block';
+});
+calc();
+</script>
+</body>
+</html>
